@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navconteiner{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    height: 50px;    
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+
+.navcont{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    gap: 20px;
+    list-style: none;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;  
+}
