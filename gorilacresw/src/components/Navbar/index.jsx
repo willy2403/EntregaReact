@@ -4,7 +4,6 @@ import CartWidget from "./CartWidget"
 const Navbar = () => {
   return (
     <nav className={style.navconteiner}>
- 
          <span className={style.title}>Gorilacrew</span>
         <ul className={style.navcont}>
           <li>
