@@ -1,0 +1,20 @@
+.banner{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://img.freepik.com/fotos-premium/modelo-masculino-moda-usar-ropa-hombre-elegante-estilo-casual-aislado-blanco-banner-retrato-cara-hombre-moda-espacio-copia_545934-47436.jpg?w=996");
+}
+
+.banner-container{
+    text-align: center;
+    padding: 15% 0;
+}
+
+.banner h1{
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 62px;
+    font-weight: bold;
+}
+

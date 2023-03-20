@@ -1,0 +1,131 @@
+[
+    {
+       "id": "remeras-01",
+        "titulo": "Remera 01",
+       "imagen": "./img/ropa/pantalones/remeras/01.jpg",
+        "categoria":{
+            "nombre": "remeras",
+           "id": "remeras"
+        },
+        "precio": 3500
+    },
+    {
+       "id": "remeras-02",
+        "titulo": "Remera 02",
+       "imagen": "./img/ropa/pantalones/remeras/02.jpg",
+        "categoria":{
+            "nombre": "remeras",
+           "id": "remeras"
+        },
+        "precio": 3400
+    },  
+    {
+       "id": "remeras-03",
+        "titulo": "Remera 03",
+       "imagen": "./img/ropa/pantalones/remeras/03.jpg",
+        "categoria":{
+            "nombre": "remeras",
+           "id": "remeras"
+        },
+        "precio": 3500
+    },  
+    {
+       "id": "remeras-04",
+        "titulo": "Remera 04",
+       "imagen": "./img/ropa/pantalones/remeras/04.jpg",
+        "categoria":{
+            "nombre": "remeras",
+           "id": "remeras"
+        },
+        "precio": 3500
+    },    
+    {
+       "id": "remeras-05",
+        "titulo": "Remera 05",
+       "imagen": "./img/ropa/pantalones/remeras/05.jpg",
+        "categoria":{
+            "nombre": "remeras",
+           "id": "remeras"
+        },
+        "precio": 3200
+    },   
+    {
+       "id": "remeras-06",
+        "titulo": "Remera 06",
+       "imagen": "./img/ropa/pantalones/remeras/06.jpg",
+        "categoria":{
+            "nombre": "remeras",
+           "id": "remeras"
+        },
+        "precio": 3500
+    },
+    {
+       "id": "remeras-07",
+        "titulo": "Remera 07",
+       "imagen": "./img/ropa/pantalones/remeras/07.jpg",
+        "categoria":{
+            "nombre": "remeras",
+           "id": "remeras"
+        },
+        "precio": 3000
+    },   
+    {
+       "id": "remeras-08",
+        "titulo": "Remera 08",
+       "imagen": "./img/ropa/pantalones/remeras/08.jpg",
+        "categoria":{
+            "nombre": "remeras",
+           "id": "remeras"
+        },
+        "precio": 4500
+    },
+    {
+       "id": "pantalon-01",
+        "titulo": "Pantalon 01",
+       "imagen": "./img/ropa/pantalones/01.jpg",
+        "categoria":{
+            "nombre": "pantalones",
+           "id": "pantalones"
+        },
+        "precio": 5500
+    },
+    {
+       "id": "pantalon-02",
+        "titulo": "Pantalon 02",
+       "imagen": "./img/ropa/pantalones/02.jpg",
+        "categoria":{
+            "nombre": "pantalones",
+           "id": "pantalones"
+        },
+        "precio": 4500
+    },
+    {
+       "id": "pantalon-03",
+        "titulo": "Pantalon 03",
+       "imagen": "./img/ropa/pantalones/03.jpg",
+        "categoria":{
+            "nombre": "pantalones",
+           "id": "pantalones"
+        },
+        "precio": 4000
+    },{
+       "id": "pantalon-04",
+        "titulo": "Pantalon 04",
+       "imagen": "./img/ropa/pantalones/04.jpg",
+        "categoria":{
+            "nombre": "pantalones",
+           "id": "pantalones"
+        },
+        "precio": 6000
+    },
+    {
+       "id": "pantalon-05",
+        "titulo": "Pantalon 05",
+       "imagen": "./img/ropa/pantalones/05.jpg",
+        "categoria":{
+            "nombre": "pantalones",
+           "id": "pantalones"
+        },
+        "precio": 5500
+    }
+]

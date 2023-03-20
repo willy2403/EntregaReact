@@ -1,16 +1,25 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import ItemListContainer from './components/Navbar/ItemListContainer'
-
+import Home from './components/Home/home'
+import { Route, Routes } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import CartContent from './components/CartContent/CartContent'
+import ProductList from './components/ProductList'
 
 function App() {
+  const [products, setProducts] = useState ([]);
+
+  useEffect(() => {
+    fetch("../public/data.json")
+    .then(res => res.json())
+    .then(data => setProducts(data));
+  }, []);
   return (
-    <div>
-      
-      <Navbar/>
-      <ItemListContainer greeting="Hola, Bienvenido a mi Ecommers!"/>
-    </div>
-  )
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/cart' element={<CartContent/>} />
+        <Route path='/product' element={<ProductList products={products}/>} />
+       </Routes>
+  );
 }
 
-export default App
+export default App;
