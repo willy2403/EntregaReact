@@ -6,10 +6,10 @@ import CartContent from './components/CartContent/CartContent'
 import ProductList from './components/ProductList'
 
 function App() {
-  const [products, setProducts] = useState ([]);
+  const [Products, setProducts] = useState ([]);
 
   useEffect(() => {
-    fetch("../public/data.json")
+    fetch("../data.json")
     .then(res => res.json())
     .then(data => setProducts(data));
   }, []);
@@ -17,8 +17,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/cart' element={<CartContent/>} />
-        <Route path='/product' element={<ProductList products={products}/>} />
-       </Routes>
+        <Route path='/product' element={<ProductList Products={Products}/>} />
+      </Routes>
   );
 }
 
