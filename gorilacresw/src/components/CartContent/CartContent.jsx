@@ -5,6 +5,7 @@ const CartContent = () => {
     <div>
          <Navbar/>
         <h1>Contenido de carrito</h1>
+        
     </div>
   )
 }

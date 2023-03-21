@@ -1,0 +1,25 @@
+.container{
+   
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  height: 340px;
+  width: 250px;
+}
+
+img{
+  
+    max-width: 100%;
+    border-radius: 2rem;
+
+}
+h3{
+    text-align: center;
+}
+.p {
+    text-align: center;
+    font-size: 1rem;
+}
+button{
+    max-width: 100px;
+}
